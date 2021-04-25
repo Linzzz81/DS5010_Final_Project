@@ -25,15 +25,15 @@ Additionally, ```diagnose.py``` module provides diagnostic tools for linear regr
     DS5010_Final_Project/  
     │  
     ├── lr/  
-    │     ├── __init__.py  
-    │     ├── da.py  
-    │     ├── lr.py  
-    │     ├── diagnose.py    
-    │     └── tests/  
-    │         ├── __init__.py  
-    │         ├── test_da.py  
-    │         ├── test_lr.py  
-    │         └── test_diagnose.py  
+    │   ├── __init__.py  
+    │   ├── da.py  
+    │   ├── lr.py  
+    │   ├── diagnose.py    
+    │   └── tests/  
+    │       ├── __init__.py  
+    │       ├── test_da.py  
+    │       ├── test_lr.py  
+    │       └── test_diagnose.py  
     │  
     ├── .gitignore  
     ├── README.md  
