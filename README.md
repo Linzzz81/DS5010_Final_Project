@@ -22,46 +22,46 @@ Additionally, ```diagnose.py``` module provides diagnostic tools for linear regr
 
 ## Package Structure
 
-DS5010_Final_Project/
-│
-├── lr/
-│   ├── __init__.py
-│   ├── da.py
-│   ├── lr.py
-│   ├── diagnose.py
-│   │
-│   └── tests/
-│       ├── __init__.py
-│       ├── test_da.py
-│       ├── test_lr.py
-│       └── test_diagnose.py
-│
-├── .gitignore
-├── README.md
-├── test_data.txt
-├── run_tests.py
-└── setup.py
+DS5010_Final_Project/  
+│  
+├── lr/  
+│   ├── __init__.py  
+│   ├── da.py  
+│   ├── lr.py  
+│   ├── diagnose.py  
+│   │  
+│   └── tests/  
+│       ├── __init__.py  
+│       ├── test_da.py  
+│       ├── test_lr.py  
+│       └── test_diagnose.py  
+│  
+├── .gitignore  
+├── README.md  
+├── test_data.txt  
+├── run_tests.py  
+└── setup.py  
 
 ## Example Usage
 
-Use ** ``da.py`` Module** :
-```from lr import da```
-```test_data = da.read_data("test_data.txt")```
-```newdata_1 = da.select_byindex(test_data, [0, 1, 2])```
-```newdata_2 = da.select_byname(test_data, ['a', 'b', 'c'])```
-```train, valid = da.partition(test_data, 0.5, 100)```
+Use ** ``da.py`` Module** :  
+```from lr import da```  
+```test_data = da.read_data("test_data.txt")```  
+```newdata_1 = da.select_byindex(test_data, [0, 1, 2])```  
+```newdata_2 = da.select_byname(test_data, ['a', 'b', 'c'])```  
+```train, valid = da.partition(test_data, 0.5, 100)```  
 
-Use ** ``lr.py`` Module** :
-```from lr import lr```
-``` model = lr.lm(test_data, [0,1], [3])```
-``` model.summary()```
-```model.get_coeff()```
+Use ** ``lr.py`` Module** :  
+```from lr import lr```  
+``` model = lr.lm(test_data, [0,1], [3])```  
+``` model.summary()```  
+```model.get_coeff()```  
 
-Use ** ``diagnose.py`` Module** :
-```from lr import diagnose```
-```diagnose = diagnose.diag(model)```
-```diagnose.leverage()```
-```diagnose.plot(3)``` 
+Use ** ``diagnose.py`` Module** :  
+```from lr import diagnose```  
+```diagnose = diagnose.diag(model)```  
+```diagnose.leverage()```  
+```diagnose.plot(3)```   
 
 ## Running the Tests
 
