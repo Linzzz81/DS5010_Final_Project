@@ -22,24 +22,24 @@ Additionally, ```diagnose.py``` module provides diagnostic tools for linear regr
 
 ## Package Structure
 
-DS5010_Final_Project/  
-│  
-├── lr/  
-│     ├── __init__.py  
-│     ├── da.py  
-│     ├── lr.py  
-│     ├── diagnose.py    
-│     └── tests/  
-│         ├── __init__.py  
-│         ├── test_da.py  
-│         ├── test_lr.py  
-│         └── test_diagnose.py  
-│  
-├── .gitignore  
-├── README.md  
-├── test_data.txt  
-├── run_tests.py  
-└── setup.py  
+    DS5010_Final_Project/  
+    │  
+    ├── lr/  
+    │     ├── __init__.py  
+    │     ├── da.py  
+    │     ├── lr.py  
+    │     ├── diagnose.py    
+    │     └── tests/  
+    │         ├── __init__.py  
+    │         ├── test_da.py  
+    │         ├── test_lr.py  
+    │         └── test_diagnose.py  
+    │  
+    ├── .gitignore  
+    ├── README.md  
+    ├── test_data.txt  
+    ├── run_tests.py  
+    └── setup.py  
 
 ## Example Usage
 
